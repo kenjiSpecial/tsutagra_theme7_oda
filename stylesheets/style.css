@@ -76,7 +76,7 @@ body section.wrapper {
   width: 100%;
   min-width: 640px;
   height: 100%;
-  min-height: 680px;
+  min-height: 640px;
   z-index: 1000;
   background: rgba(0, 0, 0, 0.6);
   -webkit-transition: opacity 0.35s ease-out;
@@ -112,7 +112,7 @@ body section.wrapper div.content dd.head {
 body section.wrapper div.content dd.social {
   font-size: 11px;
   margin-bottom: 5px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 /* line 49, ../scss/style.scss */
 body section.wrapper div.content dd.social a {
@@ -128,7 +128,7 @@ body section.wrapper div.content dd.social a:hover {
 }
 /* line 60, ../scss/style.scss */
 body section.wrapper div.content div.youtube {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 /* line 64, ../scss/style.scss */
 body section.wrapper div.content dd.caption {

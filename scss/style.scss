@@ -38,7 +38,23 @@ body{
 
         border-bottom: 1px solid rgba(0, 0, 0, .8);
         @include box-shadow(rgba(255, 255, 255, .1)0 1px 0);
-        margin-bottom: 30px;
+        margin-bottom: 10px;
+      }
+
+      dd.social{
+        font-size: 11px;
+        margin-bottom: 5px;
+        margin-bottom: 40px;
+
+        a{
+
+          color: #ffffff;
+
+          @include transition(color 0.35s ease-out);
+          &:hover{
+            color: #E74C3C;
+          }
+        }
       }
 
       div.youtube{
@@ -47,9 +63,9 @@ body{
 
       dd.caption{
         font-size: 11px;
-        line-height: 1.5em;
-        text-align: center;
-        margin-bottom: 40px;
+        line-height: 2em;
+        margin-bottom: 5px;
+
         a{
           color: #ffffff;
           @include transition(color 0.35s ease-out);

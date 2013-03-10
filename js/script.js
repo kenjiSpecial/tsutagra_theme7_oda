@@ -56,7 +56,7 @@ function initialize() {
 
 //    reading the json file
     $.getJSON('data/developed_country_data.json',function (data) {
-        developed_country_setting(data);
+        map_calculation(data, color_support, true);
 
     }).success(function () {
             console.log("second success");
@@ -69,6 +69,19 @@ function initialize() {
         });
     ;
 
+    $.getJSON('data/developing_country_data.json',function (data) {
+        map_calculation(data, color_supported, false)
+
+    }).success(function () {
+            console.log("second success");
+        })
+        .error(function () {
+            console.log("error");
+        })
+        .complete(function () {
+            console.log("complete");
+        });
+    ;
 
 
 //    scaleVal = 60 <- normal value

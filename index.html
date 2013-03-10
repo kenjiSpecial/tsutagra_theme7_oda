@@ -5,13 +5,30 @@
     <style type="text/css">
         html { height: 100% }
         body { height: 100%; margin: 0; padding: 0 }
-        #map_canvas { height: 100% }
+        #map_canvas { height: 100%; min-height: 680px; }
     </style>
+    <link rel="stylesheet" href="stylesheets/style.css"/>
+    <link rel="stylesheet" href="stylesheets/general_enclosed_foundicons.css"/>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC4v_i3EJPTCCysbRmyPlLgxz3WO7BZVIA&sensor=false"></script>
     <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
 </head>
 <body>
 <div id="map_canvas" style="width:100%; height:100%"></div>
+<section class="wrapper">
+    <div class="content">
+        <dd class="head">ODA予算分布ビジュアルマップ</dd>
+        <div class="youtube">
+            <iframe type="text/html" width="640" height="360"
+                    src="http://www.youtube.com/embed/sbBBW-vXlvs?autoplay=1&controls=0&loop=0"
+                    frameborder="0" allowfullscreen></iframe>
+        </div>
+        <dd class="caption">「<a href="http://www.tsutagra.go.jp/download/jigh.xlsx" target="_blank">主要先進国発　発展途上国向け　開発援助全体及び保健分野における資金量（2010年）</a>」を使い、作成しています。</dd>
+
+        <div id="remove"><i class="foundicon-remove"></i></div>
+
+
+    </div>
+</section>
 </body>
 <script type="text/javascript" src="js/variable.js"></script>
 <script type="text/javascript" src="js/visual.js"></script>
@@ -21,4 +38,6 @@
 <script type="text/javascript" src="js/mouse_event.js"></script>
 
 <script type="text/javascript" src="js/script.js"></script>
+
+<script type="text/javascript" src="js/dom.js"></script>
 </html>

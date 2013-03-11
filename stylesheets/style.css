@@ -106,13 +106,13 @@ body section.wrapper div.content dd.head {
   -webkit-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0;
   -moz-box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0;
   box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 /* line 44, ../scss/style.scss */
 body section.wrapper div.content dd.social {
   font-size: 11px;
   margin-bottom: 5px;
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 /* line 49, ../scss/style.scss */
 body section.wrapper div.content dd.social a {
@@ -128,7 +128,7 @@ body section.wrapper div.content dd.social a:hover {
 }
 /* line 60, ../scss/style.scss */
 body section.wrapper div.content div.youtube {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 /* line 64, ../scss/style.scss */
 body section.wrapper div.content dd.caption {

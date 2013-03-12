@@ -77,14 +77,15 @@ div.clear {
 section#map_cover {
   width: 100%;
   min-width: 640px;
+  min-height: 660px;
   height: 100%;
 }
-/* line 18, ../scss/style.scss */
+/* line 19, ../scss/style.scss */
 section#map_cover div#map_title {
   width: 100%;
-  height: 12%;
+  height: 10%;
 }
-/* line 24, ../scss/style.scss */
+/* line 25, ../scss/style.scss */
 section#map_cover div#map_title div#title_logo {
   font-family: "Droid Sans", sans-serif;
   padding-top: 20px;
@@ -94,18 +95,18 @@ section#map_cover div#map_title div#title_logo {
   line-height: 40px;
   float: left;
 }
-/* line 27, ../scss/style.scss */
+/* line 28, ../scss/style.scss */
 section#map_cover div#map_title div#title_logo em {
   font-weight: bold;
   font-size: 40px;
   margin-right: 10px;
 }
-/* line 40, ../scss/style.scss */
+/* line 41, ../scss/style.scss */
 section#map_cover div#map_title div#title_logo span {
   font-size: 9px;
   vertical-align: super;
 }
-/* line 47, ../scss/style.scss */
+/* line 48, ../scss/style.scss */
 section#map_cover div#map_title div#title_name {
   padding-top: 20px;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -114,7 +115,7 @@ section#map_cover div#map_title div#title_name {
   margin-right: 30px;
   float: right;
 }
-/* line 55, ../scss/style.scss */
+/* line 56, ../scss/style.scss */
 section#map_cover div#map_title div#title_name a {
   color: #000;
   -webkit-transition: color 0.2s;
@@ -122,24 +123,24 @@ section#map_cover div#map_title div#title_name a {
   -o-transition: color 0.2s;
   transition: color 0.2s;
 }
-/* line 59, ../scss/style.scss */
+/* line 60, ../scss/style.scss */
 section#map_cover div#map_title div#title_name a:hover {
   color: #E74C3C;
 }
-/* line 67, ../scss/style.scss */
+/* line 68, ../scss/style.scss */
 section#map_cover div#map_canvas {
   width: 100%;
-  height: 88%;
+  height: 90%;
 }
 
-/* line 73, ../scss/style.scss */
+/* line 74, ../scss/style.scss */
 body {
   height: 100%;
   margin: 0;
   padding: 0;
   font-family: "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
 }
-/* line 79, ../scss/style.scss */
+/* line 80, ../scss/style.scss */
 body section.wrapper {
   position: absolute;
   top: 0;
@@ -156,18 +157,18 @@ body section.wrapper {
   transition: opacity 0.35s ease-out;
   opacity: 1;
 }
-/* line 95, ../scss/style.scss */
+/* line 96, ../scss/style.scss */
 body section.wrapper.display_none {
   opacity: 0;
 }
-/* line 99, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
 body section.wrapper div.content {
   margin: 60px auto;
   width: 640px;
   color: #ffffff;
   text-shadow: 1px -1px 0 black;
 }
-/* line 105, ../scss/style.scss */
+/* line 106, ../scss/style.scss */
 body section.wrapper div.content dd.head {
   text-align: center;
   font-size: 32px;
@@ -179,13 +180,13 @@ body section.wrapper div.content dd.head {
   box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0;
   margin-bottom: 20px;
 }
-/* line 116, ../scss/style.scss */
+/* line 117, ../scss/style.scss */
 body section.wrapper div.content dd.social {
   font-size: 11px;
   margin-bottom: 5px;
   margin-bottom: 40px;
 }
-/* line 121, ../scss/style.scss */
+/* line 122, ../scss/style.scss */
 body section.wrapper div.content dd.social a {
   color: #ffffff;
   -webkit-transition: color 0.35s ease-out;
@@ -193,21 +194,21 @@ body section.wrapper div.content dd.social a {
   -o-transition: color 0.35s ease-out;
   transition: color 0.35s ease-out;
 }
-/* line 126, ../scss/style.scss */
+/* line 127, ../scss/style.scss */
 body section.wrapper div.content dd.social a:hover {
   color: #E74C3C;
 }
-/* line 132, ../scss/style.scss */
+/* line 133, ../scss/style.scss */
 body section.wrapper div.content div.youtube {
   margin-bottom: 20px;
 }
-/* line 136, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 body section.wrapper div.content dd.caption {
   font-size: 11px;
   line-height: 2em;
   margin-bottom: 5px;
 }
-/* line 141, ../scss/style.scss */
+/* line 142, ../scss/style.scss */
 body section.wrapper div.content dd.caption a {
   color: #ffffff;
   -webkit-transition: color 0.35s ease-out;
@@ -215,23 +216,23 @@ body section.wrapper div.content dd.caption a {
   -o-transition: color 0.35s ease-out;
   transition: color 0.35s ease-out;
 }
-/* line 145, ../scss/style.scss */
+/* line 146, ../scss/style.scss */
 body section.wrapper div.content dd.caption a:hover {
   color: #E74C3C;
 }
-/* line 151, ../scss/style.scss */
+/* line 152, ../scss/style.scss */
 body section.wrapper div.content div#remove {
   text-align: center;
   font-size: 48px;
 }
-/* line 155, ../scss/style.scss */
+/* line 156, ../scss/style.scss */
 body section.wrapper div.content div#remove i {
   -webkit-transition: color 0.35s ease-out;
   -moz-transition: color 0.35s ease-out;
   -o-transition: color 0.35s ease-out;
   transition: color 0.35s ease-out;
 }
-/* line 158, ../scss/style.scss */
+/* line 159, ../scss/style.scss */
 body section.wrapper div.content div#remove i:hover {
   cursor: pointer;
   color: #E74C3C;

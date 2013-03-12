@@ -77,7 +77,6 @@ div.clear {
 section#map_cover {
   width: 100%;
   min-width: 640px;
-  min-height: 640px;
   height: 100%;
 }
 /* line 18, ../scss/style.scss */

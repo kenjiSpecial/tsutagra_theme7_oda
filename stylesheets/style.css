@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /* line 17, ../../../../../../.rbenv/versions/1.9.3-p194/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -64,11 +63,66 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 4, ../scss/style.scss */
-body {
-  font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+/* line 3, ../scss/style.scss */
+html {
+  height: 100%;
 }
+
 /* line 7, ../scss/style.scss */
+div.clear {
+  clear: both;
+}
+
+/* line 11, ../scss/style.scss */
+section#map_cover {
+  width: 100%;
+  min-width: 640px;
+  height: 100%;
+}
+/* line 17, ../scss/style.scss */
+section#map_cover div#map_title {
+  width: 100%;
+  height: 10%;
+  margin-top: 15px;
+}
+/* line 23, ../scss/style.scss */
+section#map_cover div#map_title div#title_logo {
+  float: left;
+}
+/* line 27, ../scss/style.scss */
+section#map_cover div#map_title div#title_name {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  font-size: 10px;
+  margin-right: 20px;
+  float: right;
+}
+/* line 34, ../scss/style.scss */
+section#map_cover div#map_title div#title_name a {
+  color: #000;
+  -webkit-transition: color 0.2s;
+  -moz-transition: color 0.2s;
+  -o-transition: color 0.2s;
+  transition: color 0.2s;
+}
+/* line 38, ../scss/style.scss */
+section#map_cover div#map_title div#title_name a:hover {
+  color: #E74C3C;
+}
+/* line 46, ../scss/style.scss */
+section#map_cover div#map_canvas {
+  width: 100%;
+  height: 90%;
+}
+
+/* line 52, ../scss/style.scss */
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Hiragino Kaku Gothic Pro", Meiryo, sans-serif;
+}
+/* line 58, ../scss/style.scss */
 body section.wrapper {
   position: absolute;
   top: 0;
@@ -85,18 +139,18 @@ body section.wrapper {
   transition: opacity 0.35s ease-out;
   opacity: 1;
 }
-/* line 23, ../scss/style.scss */
+/* line 74, ../scss/style.scss */
 body section.wrapper.display_none {
   opacity: 0;
 }
-/* line 27, ../scss/style.scss */
+/* line 78, ../scss/style.scss */
 body section.wrapper div.content {
   margin: 60px auto;
   width: 640px;
   color: #ffffff;
   text-shadow: 1px -1px 0 black;
 }
-/* line 33, ../scss/style.scss */
+/* line 84, ../scss/style.scss */
 body section.wrapper div.content dd.head {
   text-align: center;
   font-size: 24px;
@@ -108,13 +162,13 @@ body section.wrapper div.content dd.head {
   box-shadow: rgba(255, 255, 255, 0.1) 0 1px 0;
   margin-bottom: 20px;
 }
-/* line 44, ../scss/style.scss */
+/* line 95, ../scss/style.scss */
 body section.wrapper div.content dd.social {
   font-size: 11px;
   margin-bottom: 5px;
   margin-bottom: 40px;
 }
-/* line 49, ../scss/style.scss */
+/* line 100, ../scss/style.scss */
 body section.wrapper div.content dd.social a {
   color: #ffffff;
   -webkit-transition: color 0.35s ease-out;
@@ -122,21 +176,21 @@ body section.wrapper div.content dd.social a {
   -o-transition: color 0.35s ease-out;
   transition: color 0.35s ease-out;
 }
-/* line 54, ../scss/style.scss */
+/* line 105, ../scss/style.scss */
 body section.wrapper div.content dd.social a:hover {
   color: #E74C3C;
 }
-/* line 60, ../scss/style.scss */
+/* line 111, ../scss/style.scss */
 body section.wrapper div.content div.youtube {
   margin-bottom: 20px;
 }
-/* line 64, ../scss/style.scss */
+/* line 115, ../scss/style.scss */
 body section.wrapper div.content dd.caption {
   font-size: 11px;
   line-height: 2em;
   margin-bottom: 5px;
 }
-/* line 69, ../scss/style.scss */
+/* line 120, ../scss/style.scss */
 body section.wrapper div.content dd.caption a {
   color: #ffffff;
   -webkit-transition: color 0.35s ease-out;
@@ -144,23 +198,23 @@ body section.wrapper div.content dd.caption a {
   -o-transition: color 0.35s ease-out;
   transition: color 0.35s ease-out;
 }
-/* line 73, ../scss/style.scss */
+/* line 124, ../scss/style.scss */
 body section.wrapper div.content dd.caption a:hover {
   color: #E74C3C;
 }
-/* line 79, ../scss/style.scss */
+/* line 130, ../scss/style.scss */
 body section.wrapper div.content div#remove {
   text-align: center;
   font-size: 48px;
 }
-/* line 83, ../scss/style.scss */
+/* line 134, ../scss/style.scss */
 body section.wrapper div.content div#remove i {
   -webkit-transition: color 0.35s ease-out;
   -moz-transition: color 0.35s ease-out;
   -o-transition: color 0.35s ease-out;
   transition: color 0.35s ease-out;
 }
-/* line 86, ../scss/style.scss */
+/* line 137, ../scss/style.scss */
 body section.wrapper div.content div#remove i:hover {
   cursor: pointer;
   color: #E74C3C;

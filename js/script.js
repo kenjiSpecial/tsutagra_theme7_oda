@@ -21,9 +21,9 @@ function initialize() {
     var mapOptions = {
         center: new google.maps.LatLng(34.6500, 135.0000),
         zoom: 3,
-        mapTypeControlOptions: {
-            mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'map_style']
-        }
+        mapTypeControl: false,
+        streetViewControl: false
+
     };
 
     map = new google.maps.Map(document.getElementById("map_canvas"),

@@ -14,29 +14,7 @@ initialize();
 
 function initialize() {
     geocoder = new google.maps.Geocoder();
-    var styles = [
-        {
-            stylers: [
-                { hue: "#000" },
-                { saturation: -100 }
-            ]
-        },
-        {
-            featureType: "road",
-            elementType: "geometry",
-            stylers: [
-                { lightness: 100 },
-                { visibility: "simplified" }
-            ]
-        },
-        {
-            featureType: "road",
-            elementType: "labels",
-            stylers: [
-                { visibility: "off" }
-            ]
-        }
-    ];
+    var styles = [ { "featureType": "water", "stylers": [ { "lightness": 100 } ] },{ "featureType": "landscape", "stylers": [ { "color": "#d0d5d8" } ] },{ "featureType": "administrative.province", "stylers": [ { "visibility": "off" } ] },{ "featureType": "road", "stylers": [ { "visibility": "off" } ] },{ "featureType": "poi", "stylers": [ { "visibility": "off" } ] },{ "featureType": "administrative.province", "stylers": [ { "visibility": "off" } ] },{ "featureType": "administrative.locality", "stylers": [ { "visibility": "off" } ] },{ "featureType": "administrative.country", "elementType": "geometry", "stylers": [ { "lightness": 100 }, { "weight": 1.8 } ] },{ "elementType": "labels", "stylers": [ { "lightness": 28 }, { "weight": 0.1 } ] },{ } ];
 
     var styledMap = new google.maps.StyledMapType(styles, {name: "Styled Map"});
 

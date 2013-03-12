@@ -83,7 +83,7 @@ section#map_cover {
 section#map_cover div#map_title {
   width: 100%;
   height: 10%;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 /* line 24, ../scss/style.scss */
 section#map_cover div#map_title div#title_logo {

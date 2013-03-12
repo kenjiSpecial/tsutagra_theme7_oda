@@ -77,7 +77,7 @@ div.clear {
 section#map_cover {
   width: 100%;
   min-width: 640px;
-  min-height: 660px;
+  min-height: 640px;
   height: 100%;
 }
 /* line 19, ../scss/style.scss */
@@ -148,7 +148,7 @@ body section.wrapper {
   width: 100%;
   min-width: 640px;
   height: 100%;
-  min-height: 660px;
+  min-height: 640px;
   z-index: 1000;
   background: rgba(0, 0, 0, 0.8);
   -webkit-transition: opacity 0.35s ease-out;
@@ -163,7 +163,7 @@ body section.wrapper.display_none {
 }
 /* line 100, ../scss/style.scss */
 body section.wrapper div.content {
-  margin: 60px auto;
+  margin: 30px auto;
   width: 640px;
   color: #ffffff;
   text-shadow: 1px -1px 0 black;

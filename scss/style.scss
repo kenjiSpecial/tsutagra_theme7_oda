@@ -82,7 +82,7 @@ body{
     min-height: 640px;
 
     z-index: 1000;
-    background: rgba(0, 0, 0, .6);
+    background: rgba(0, 0, 0, .8);
 
     @include transition(opacity 0.35s ease-out);
     opacity: 1;
